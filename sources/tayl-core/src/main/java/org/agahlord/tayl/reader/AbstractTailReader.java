@@ -11,6 +11,7 @@ import org.agahlord.tayl.util.ByteSequence;
  * Abstract implementation of a {@link TailReader}, which adds thread-safety to 
  * the reading methods, and span threads accordingly to the given configuration. 
  * @author John Vásquez
+ * @since 1.0
  */
 public abstract class AbstractTailReader<T extends TailConfiguration> extends TailReader<T> {
 

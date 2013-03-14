@@ -8,6 +8,7 @@ import org.agahlord.tayl.util.Strings;
 /**
  * Base configuration for {@link SshTailReader}s.
  * @author John Vásquez
+ * @since 1.0
  */
 public class SshTailConfiguration extends TailConfiguration {
 

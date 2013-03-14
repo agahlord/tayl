@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
  * File reader which listens for the data appended to a given file, reading it 
  * line by line, as the Unix {@code tail} utility.
  * @author John Vásquez
+ * @since 1.0
  */
 public abstract class TailReader<T extends TailConfiguration> {
     private static final Logger logger = LoggerFactory.getLogger(TailReader.class);

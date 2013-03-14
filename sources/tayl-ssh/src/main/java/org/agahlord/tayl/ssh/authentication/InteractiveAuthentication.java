@@ -8,6 +8,7 @@ import java.io.IOException;
  * SSH authentication using a {@code keyboard-interactive} wrapper.
  * @see <a href="http://tools.ietf.org/html/rfc4251">The Secure Shell (SSH) Protocol Architecture - RFC 4251</a>
  * @author John Vásquez
+ * @since 1.0
  */
 public abstract class InteractiveAuthentication extends Authentication implements InteractiveCallback {
     

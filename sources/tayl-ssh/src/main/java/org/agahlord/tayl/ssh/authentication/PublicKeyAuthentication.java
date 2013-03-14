@@ -12,6 +12,7 @@ import org.agahlord.tayl.util.CharacterSequence;
  * SSH authentication using a public key challenge.
  * @see <a href="http://tools.ietf.org/html/rfc4251">The Secure Shell (SSH) Protocol Architecture - RFC 4251</a>
  * @author John Vásquez
+ * @since 1.0
  */
 public class PublicKeyAuthentication extends Authentication {
 

@@ -3,6 +3,7 @@ package org.agahlord.tayl;
 /**
  * Handler of the reading events done by the associated {@link TailReader}s.
  * @author John Vásquez
+ * @since 1.0
  */
 public interface TailHandler {
     

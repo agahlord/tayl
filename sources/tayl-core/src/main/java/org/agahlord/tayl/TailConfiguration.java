@@ -6,6 +6,7 @@ import org.agahlord.tayl.util.Strings;
 /**
  * Base configuration for {@link TailReader}s.
  * @author John Vásquez
+ * @since 1.0
  */
 public class TailConfiguration {
     
@@ -50,8 +51,8 @@ public class TailConfiguration {
      * @param lines the number of lines to be peeked
      */
     public void setLines(int lines) {
-        if( lines < 0 || lines > 50 ) {
-            throw new IllegalArgumentException("lines cannot be less than 0 and greater than 50.");
+        if( lines < 0 || lines > 5000 ) {
+            throw new IllegalArgumentException("lines cannot be less than 0 and greater than 5000.");
         }
         
         this.lines = lines;
@@ -112,7 +113,7 @@ public class TailConfiguration {
     
     /**
      * Gets the amount of time (in milliseconds) to delay the checking of file's
-     * data changes. By default, the reader should wait 1000 milliseconds 
+     * data changes. By default, the reader will wait 1000 milliseconds 
      * (i.e. 1 second).
      * @return the delay between checks of file's data changes.
      */
@@ -122,7 +123,7 @@ public class TailConfiguration {
 
     /**
      * Sets the amount of time (in milliseconds) to delay the checking of file's
-     * data changes. By default, the reader should wait 1000 milliseconds 
+     * data changes. By default, the reader will wait 1000 milliseconds 
      * (i.e. 1 second). the delay between checks of file's data changes.
      * @param delay 
      */

@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Holds a dynamic sequence of bytes, as a buffer, with resizing capabilities.
  * @author John Vásquez
+ * @since 1.0
  */
 public class ByteSequence {
     

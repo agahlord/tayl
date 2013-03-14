@@ -8,6 +8,7 @@ import org.agahlord.tayl.util.Strings;
  * SSH authentication processor. Authenticates a SSH connection given a 
  * remote user name.
  * @author John Vásquez
+ * @since 1.0
  */
 public abstract class Authentication {
     

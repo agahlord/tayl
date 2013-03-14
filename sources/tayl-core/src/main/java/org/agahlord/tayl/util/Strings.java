@@ -3,6 +3,7 @@ package org.agahlord.tayl.util;
 /**
  * Utility class to work with {@code String} objects.
  * @author John Vásquez
+ * @since 1.0
  */
 public class Strings {
 

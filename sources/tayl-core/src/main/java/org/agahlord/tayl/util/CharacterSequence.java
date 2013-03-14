@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Holds a dynamic sequence of characters, as a buffer, with resizing capabilities.
  * @author John Vásquez
+ * @since 1.0
  */
 public class CharacterSequence {
     

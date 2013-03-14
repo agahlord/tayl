@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
  * {@link org.agahlord.tayl.TailReader}'s SSH implementation, which allows to 
  * tail remote files.
  * @author John Vásquez
+ * @since 1.0
  */
 public class SshTailReader extends AbstractTailReader<SshTailConfiguration> {
     private static final Logger logger = LoggerFactory.getLogger(SshTailReader.class);

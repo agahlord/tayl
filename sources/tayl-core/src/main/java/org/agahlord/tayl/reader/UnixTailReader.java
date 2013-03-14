@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
  * {@link org.agahlord.tayl.TailReader}'s implementation that relies on the 
  * actual Unix {@code tail} utility, executing it as a subprocess.
  * @author John Vásquez
+ * @since 1.0
  */
 public class UnixTailReader extends AbstractTailReader<TailConfiguration> {
     private static final Logger logger = LoggerFactory.getLogger(UnixTailReader.class);

@@ -6,6 +6,7 @@ import org.agahlord.tayl.TailHandler;
  * Basic {@link TailHandler} implementation which writes the events using the
  * standard system outputs ({@code System.out} and {@code System.err}).
  * @author John Vásquez
+ * @since 1.0
  */
 public class StdoutHandler implements TailHandler {
 
