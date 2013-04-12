@@ -9,7 +9,8 @@
 
     <name>Tayl : SSH</name>
     <url>http://maven.apache.org</url>
-
+    <description>Tayl implementation to provide SSH access to Unix' tail tool.</description>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

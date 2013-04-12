@@ -9,6 +9,7 @@
 
     <name>Tayl : Core</name>
     <url>http://maven.apache.org</url>
+    <description>Tayl core classes packages.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

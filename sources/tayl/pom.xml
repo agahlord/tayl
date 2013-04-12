@@ -31,6 +31,8 @@
     <modules>
         <module>../tayl-core</module>
         <module>../tayl-ssh</module>
+        <module>../tayl-ui</module>
+        <module>../tayl-ui-coal</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
